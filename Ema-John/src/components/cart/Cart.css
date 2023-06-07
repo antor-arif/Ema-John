@@ -1,0 +1,25 @@
+.cart h2{
+    
+    margin-left: 70px;
+    border-bottom: 2px solid goldenrod;
+}
+.cart button{
+    background-color: goldenrod;
+    width: 250px;
+    height: 30px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 70px;
+}
+.total{
+    color: chocolate;
+    font-size: 25px;
+    font-weight: 600px;
+}
+.cart span{
+    font-weight: bold;
+    margin-left: 15px;
+}

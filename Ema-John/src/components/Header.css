@@ -33,6 +33,7 @@
     margin-bottom: 10px;
     font-size: 17px;
     width: 70%;
+    margin-left: 50px;
   }
 a:link{
     text-decoration: none;  
@@ -43,4 +44,15 @@ a:visited{
 }
 a:hover{
     background-color: gray;
+}
+.cart-logo{
+    display: flex;
+    text-align: end;
+}
+.inputBox h3{
+    float: right;
+    margin-right: 30px;
+}
+.inputBox{
+    display: flex;
 }

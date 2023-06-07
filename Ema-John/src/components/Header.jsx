@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from '../images/logo.png';
 import './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
-React
+
 
 const Header = () => {
+    
     return ( <>
         <div className='header'>
            <img src={logo} type='image/png'></img>
@@ -18,6 +21,9 @@ const Header = () => {
         <div className='inputBox'>
 
         <input type='text' placeholder='type here to search'></input>
+        <h3><FontAwesomeIcon icon={faCartShopping} /></h3>
+        
+        
 
         </div>
         
